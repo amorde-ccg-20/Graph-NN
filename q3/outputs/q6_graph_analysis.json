@@ -1,0 +1,10 @@
+{
+  "top_k": 10,
+  "learned_links": 7160,
+  "in_physical_graph": 217,
+  "absent_from_physical_graph": 6943,
+  "physical_overlap_percent": 3.03072625698324,
+  "learned_median_distance_km": 29.332699456947196,
+  "physical_median_distance_km": 2.371061186383964,
+  "all_pairs_median_distance_km": 23.017632330800094
+}

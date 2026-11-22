@@ -1,0 +1,39 @@
+{
+  "temporal": {
+    "validation": {
+      "mae": 59.638751574170286,
+      "rmse": 96.72072712947495
+    },
+    "test": {
+      "mae": 66.92404558472471,
+      "rmse": 106.05811919317063
+    },
+    "training_seconds": 22.56408904498676,
+    "epochs": 10
+  },
+  "fixed_graph": {
+    "validation": {
+      "mae": 138.13538932999072,
+      "rmse": 210.29636483089632
+    },
+    "test": {
+      "mae": 154.09360304387204,
+      "rmse": 228.8359540242917
+    },
+    "training_seconds": 32.90890629298519,
+    "epochs": 10
+  },
+  "settings": {
+    "hidden": 16,
+    "batch_size": 64,
+    "max_epochs": 10,
+    "patience": 3,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "seed": 42,
+    "mean": 607.1699829101562,
+    "std": 483.35162353515625,
+    "gpu": "NVIDIA A40",
+    "torch": "2.13.0+cu130"
+  }
+}

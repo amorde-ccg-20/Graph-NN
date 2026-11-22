@@ -1,0 +1,57 @@
+{
+  "fixed_graph": {
+    "validation": {
+      "mae": 138.13538932999072,
+      "rmse": 210.29636483089632
+    },
+    "test": {
+      "mae": 154.09360304387204,
+      "rmse": 228.8359540242917
+    },
+    "training_seconds": 32.90890629298519,
+    "epochs": 10
+  },
+  "adaptive": {
+    "validation": {
+      "mae": 108.44979850965046,
+      "rmse": 172.80055082890334
+    },
+    "test": {
+      "mae": 124.5693516132097,
+      "rmse": 188.89618332024332
+    },
+    "training_seconds": 35.936532215971965,
+    "epochs": 10
+  },
+  "hybrid": {
+    "validation": {
+      "mae": 138.47149646612021,
+      "rmse": 211.20424195484983
+    },
+    "test": {
+      "mae": 154.5526695803212,
+      "rmse": 229.45349495974057
+    },
+    "training_seconds": 38.858405650011264,
+    "epochs": 10,
+    "fixed_weight": 0.9340070486068726
+  },
+  "settings": {
+    "embedding_dim": 16,
+    "sparsification": null,
+    "hybrid_mix": "learned",
+    "shared_training_settings": {
+      "hidden": 16,
+      "batch_size": 64,
+      "max_epochs": 10,
+      "patience": 3,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "seed": 42,
+      "mean": 607.1699829101562,
+      "std": 483.35162353515625,
+      "gpu": "NVIDIA A40",
+      "torch": "2.13.0+cu130"
+    }
+  }
+}
